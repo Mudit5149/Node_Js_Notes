@@ -1,0 +1,17 @@
+what is Node js repl
+
+1 Node js repl is very important feature of node js and it 
+very useful in exprerimenting with node js code and to debug javascript
+code
+
+
+what is repl basically ?
+
+repl mean 
+R for Read user input into a javascript data sturucture
+
+E for Eval take and evaluates the data sturcture
+
+P for Print the result 
+
+L for Loop the above command 
