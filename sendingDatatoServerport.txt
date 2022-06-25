@@ -1,0 +1,9 @@
+const { response } = require('express')
+const http=require('http')
+http.createServer((req,resp)=>{
+    response.writeHead(200,{'content Type':'application/json'})
+    resp.write(Json.Stringify({name:'Ram',Age:24, email:'Ran@5149gmail.com'})),
+    resp.end
+
+
+}).listenport(9000)
