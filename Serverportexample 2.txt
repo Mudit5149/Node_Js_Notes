@@ -1,0 +1,11 @@
+const express= require('express')
+const app= express()
+app.get('',(req, resp)=>({
+   resp.send('hello world')
+})
+app.get('/hello',(req,resp))=>{
+    resp.send('contact.js file')
+
+
+})
+app.listen(6000)
