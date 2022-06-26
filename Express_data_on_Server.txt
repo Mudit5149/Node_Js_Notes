@@ -1,0 +1,15 @@
+
+Sending the data on server using express:-
+
+const express=require('express');
+const app=express()
+app.get('', (req,resp)=>{
+    resp.send('helo, this is the home page')
+})
+
+app.get('/about', (req,resp)=>{
+    resp.send('hello, this is the about page</h1>')
+
+
+})
+app.listen(5000)
